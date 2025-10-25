@@ -8633,6 +8633,8 @@ h1, h2, h3, h4, h5,
   z-index: 0;
   position: relative; }
   .ftco-about .img-about .img {
+    height: 100%; /* 또는 400px, vh 값 등 */
+    background-size: cover;  /* 전체를 꽉 채우기 */
     display: block;
     width: 100%;
     position: relative;
